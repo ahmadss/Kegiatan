@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kegiatan</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="viewfragmentjudul">View Kegiatan</string>
+    <string name="editfragmentJudul">Edit Kegiatan</string>
+    <string name="tambahfragmentJudul">Tambah Kegiatan</string>
+    <string name="setting_fragment">Setting aplikasi</string>
+
+    <string name="editmenu">Edit</string>
+</resources>

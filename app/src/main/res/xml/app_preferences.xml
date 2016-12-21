@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="General">
+        <EditTextPreference
+            android:title="Buku Kegiatan"
+            android:summary="judul ini akan digunakan di action bar"
+            android:key="judul"
+            android:defaultValue="BukuKegiatan"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Warna">
+        <CheckBoxPreference
+            android:title="Background Hitam"
+            android:summary="ganti backgound main jadi hitam!"
+            android:key="background_color"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

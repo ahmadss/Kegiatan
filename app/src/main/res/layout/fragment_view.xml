@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="12dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="#F9F9F9"
+    tools:context="com.catatankegiatan.kegiatan.ViewFragment">
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:id="@+id/viewKgticon"
+        android:src="@drawable/k"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="15dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kgtScrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/viewKgticon"
+        android:layout_alignBottom="@+id/viewKgticon">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Judul Kegiatan"
+            android:id="@+id/viewKgtJudul"/>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kgtScrollView"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="Keterangan Kegiatan"
+            android:id="@+id/viewKgtkegiatan"/>
+
+    </ScrollView>
+
+</RelativeLayout>
